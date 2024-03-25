@@ -1,0 +1,153 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.logo img {
+  width: 164px;
+}
+
+nav {
+  display: flex;
+}
+
+.right ul {
+  display: flex;
+  gap: 30px;
+}
+.right ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Segoe UI";
+  padding: 1rem 0;
+}
+.right ul li span {
+  padding: 0 5px;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  margin: 70px;
+  font-family: "Segoe UI";
+}
+
+.first span {
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.first p {
+  font-size: 24px;
+  width: 60vw;
+  font-weight: 400;
+  text-align: center;
+  line-height: 33px;
+}
+
+.btn {
+  background-color: #00b6d1;
+  padding: 14px 16px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.btn-responsive{
+  display: none;
+}
+.green {
+  background-color: #5cd85c;
+}
+
+.flex {
+  display: flex;
+}
+
+.second {
+  width: 66vw;
+  margin: auto;
+}
+
+.item {
+  padding: 23px;
+  border-radius: 12px;
+  background: #f9f9f9;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.item-lang {
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 18px;
+}
+.small {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.download :nth-child(2) {
+  font-size: 23px;
+}
+.download img {
+  height: 50px;
+  width: 50px;
+}
+.download {
+  display: flex;
+  font-family: sans-serif;
+  align-items: center;
+  gap: 10px;
+  width: 66vw;
+  margin: 3rem auto;
+}
+
+nav {
+  position: relative;
+}
+
+.mobile-nav-menu {
+  display: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.mobile-nav-icon {
+  height: 1.8rem;
+  width: 1.8rem;
+  color: #2ea3f2;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
+}
+
